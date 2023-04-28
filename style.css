@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body,main{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    background-color: white;
+}
+
+header{
+    background-color: rgb(104, 255, 142);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.opciones{
+    width: 100%;
+    padding-bottom: 22px;
+    font-size: larger;
+}
+
+.imagen{
+    height: 40%;
+    width: 60%;
+}
+
+ul{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li:hover{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.inicio{
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/5d272ffbb1b14e16787cabd91e66e3cd.jpg) ;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.664);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#fotoP{
+    height: 100%;
+    width: 50;
+    border-radius: 50%;
+}
+
+.foto{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Rakkas', cursive;
+    letter-spacing: 2px;
+}
+
+.botones{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.CV{
+    background-color: rgb(1, 83, 56);
+    border: none;
+    box-shadow: white 3px 3px 5px;
+    border-radius: 15px;
+    height: 70%;
+    width: 28%;
+    color: white;
+    font-size: 13px;
+}
+
+.about{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(172, 172, 172);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_titulo{
+    height: 15%;
+    font-size: 38px;
+    font-family: 'Rakkas', cursive;
+    letter-spacing: 2px;
+    text-shadow: rgb(0, 0, 0) 5px 5px 5px;
+    color: white;
+}
+
+.about_parrafo{
+    height: 33%;
+    padding: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.about_boton{
+    height: 15%;
+    width: 30%;
+    background-color: rgb(1, 83, 56);
+    border: none;
+    box-shadow: rgb(0, 0, 0) 3px 3px 5px;
+    border-radius: 50%;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
